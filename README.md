@@ -27,19 +27,23 @@ Create a directory named "my-folder"
 ## COMMAND AND OUTPUT
 
 Remove the directory "my-folder"
+~~~
 >mkdir my-folder
 >rmdir my-folder
+~~~
 ><img width="697" height="125" alt="os81" src="https://github.com/user-attachments/assets/750f5697-de95-4e2d-8982-5a023c2576a2" />
 
 
 ## COMMAND AND OUTPUT
 Create the file Rose.txt
+~~~
 COPY CON Rose.txt
 A clock in a office can never get stolen
 Too many employees watch it all the time
 ^Z
 1 file(s) copied
 dir Rose.txt
+~~~
 <img width="1006" height="499" alt="os82" src="https://github.com/user-attachments/assets/4ff53411-edd3-488a-bde2-75abdc1640b6" />
 
 
@@ -47,36 +51,46 @@ dir Rose.txt
 
 
 Create the file hello.txt using echo and redirection
+```
 echo “hello world” > hello.txt
 type hello.txt
+```
 <img width="773" height="139" alt="os83" src="https://github.com/user-attachments/assets/929de114-4e77-428f-bb23-85812aafcdba" />
 
 
 ## COMMAND AND OUTPUT
 
 Copy the file hello.txt into the file hello1.txt
+```
 copy hello.txt hello1.txt
+```
 <img width="663" height="103" alt="os84" src="https://github.com/user-attachments/assets/50485e8c-bd92-4618-85f5-f4161ad61eea" />
 
 
 ## COMMAND AND OUTPUT
 
 Remove the file hello1.txt
+```
 del hello1.txt
+```
 
 <img width="555" height="79" alt="os85" src="https://github.com/user-attachments/assets/4733d3c5-66bd-4c00-98bf-c0ad86edc2ec" />
 
 ## COMMAND AND OUTPUT
 
 List out the file hello1.txt in the current directory
+```
 dir hello1.txt
+```
 <img width="610" height="183" alt="os86" src="https://github.com/user-attachments/assets/1b09f9bc-888a-402b-a4d2-178747043f86" />
 
 
 ## COMMAND AND OUTPUT
 
 List out all the associated file extensions 
+```
 assoc | more
+```
 <img width="357" height="525" alt="os87" src="https://github.com/user-attachments/assets/79e3d6d1-c287-4032-b9a8-8a4a1a0c3d00" />
 
 
